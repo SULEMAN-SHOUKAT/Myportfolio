@@ -24,13 +24,13 @@ class About extends Component {
                       </div>
                   </div>
                   <div className="col-lg-6 col-md-12 about-title">
-                      <h2 className="text-uppercase pt-5 para_1" style={{fontSize:"3rem",  fontFamily: 'cursive',  letterSpacing:"14px",fontWeight:"600"}}>
+                      <h2 className="text-uppercase pt-5 para_1" style={{fontSize:"3rem", fontFamily: "Comic Sans MS",letterSpacing:"14px",fontWeight:"600"}}>
                           <span>Let me</span>
                       </h2>
-                      <h2 className="text-uppercase pt-5 para_1" style={{fontSize:"3rem",  fontFamily: 'cursive',marginTop:"-3rem",  letterSpacing:"14px",fontWeight:"600"}}>
+                      <h2 className="text-uppercase pt-5 para_1" style={{fontSize:"3rem",marginTop:"-3rem",fontFamily: "Comic Sans MS", letterSpacing:"14px",fontWeight:"600"}}>
                           <span>introduce</span>
                       </h2>
-                      <h2 className="text-uppercase pt-5 para_1" style={{fontSize:"3rem",  fontFamily: 'cursive',marginTop:"-3rem",  letterSpacing:"14px",fontWeight:"600"}}>
+                      <h2 className="text-uppercase pt-5 para_1" style={{fontSize:"3rem",marginTop:"-3rem",fontFamily: "Comic Sans MS", letterSpacing:"14px",fontWeight:"600"}}>
                           <span>myself</span>
                       </h2>
                       <div className="paragraph py-4  width_about_para">

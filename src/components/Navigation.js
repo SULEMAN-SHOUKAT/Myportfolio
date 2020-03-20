@@ -25,10 +25,10 @@ class NavigationBar extends Component {
    else{
      return(
        <>
-       <Link to="site-banner" href="#" spy={true}  smooth={true}    offset={-70}   duration= {500}  className="navigation-link"  style={{fontWeight:"400",fontFamily:"cursive"}} >Home</Link>
-       <Link to="about-area" href="#"  spy={true} smooth={true}    offset={-70}   duration= {500} className="navigation-link "   style={{fontWeight:"400",fontFamily:"cursive"}}>About</Link>
-       <Link href="#" to="services-area" spy={true}  smooth={true}    offset={-70}   duration= {500} className="navigation-link " style={{fontWeight:"400",fontFamily:"cursive"}}>Services</Link>
-       <Link href="#" to="client"  spy={true}  smooth={true}    offset={-70}   duration= {800} className="navigation-link "  style={{fontWeight:"400",fontFamily:"cursive"}}>Client Dealing</Link>
+       <Link to="site-banner" href="#" spy={true}  smooth={true}    offset={-70}   duration= {500}  className="navigation-link"  style={{fontWeight:"400",fontFamily:"Comic Sans MS"}} >Home</Link>
+       <Link to="about-area" href="#"  spy={true} smooth={true}    offset={-70}   duration= {500} className="navigation-link "   style={{fontWeight:"400",fontFamily:"Comic Sans MS"}}>About</Link>
+       <Link href="#" to="services-area" spy={true}  smooth={true}    offset={-70}   duration= {500} className="navigation-link " style={{fontWeight:"400",fontFamily:"Comic Sans MS"}}>Services</Link>
+       <Link href="#" to="client"  spy={true}  smooth={true}    offset={-70}   duration= {800} className="navigation-link "  style={{fontWeight:"400",fontFamily:"Comic Sans MS"}}>Client Dealing</Link>
        </>
      );
    }

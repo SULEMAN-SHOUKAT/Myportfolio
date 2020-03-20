@@ -40,7 +40,7 @@ class Services extends Component {
           <div className="container">
               <div className="row">
                   <div className="col-lg-12 text-center services-title" style={{marginBottom:"3rem"}}>
-                      <h1 className="text-uppercase title-text row_3">Services Offers</h1>
+                      <h1 className="text-uppercase title-text row_3">Services We Offer</h1>
 
                   </div>
               </div>

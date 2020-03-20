@@ -23,7 +23,7 @@ class Header extends Component {
               <div className="row">
                   <div className="col-lg-6 col-md-12 site-title"style={{marginTop:"11rem"}}>
                       <h3 className="title-text" style={{fontWeight:"400"}}>Hey -------</h3>
-                      <h1 className="title-text text-uppercase" style={{fontSize:"76px",fontFamily:"cursive"}}>I am Suleman</h1>
+                      <h1 className="title-text text-uppercase" style={{fontSize:"76px",fontFamily:"Comic Sans MS"}}>I am Suleman</h1>
                       <h4 className="title-text text-uppercase" style={{fontWeight:"400"}} >React js Developer</h4>
                       <div className="site-buttons">
                           <div className="d-flex flex-row flex-wrap">

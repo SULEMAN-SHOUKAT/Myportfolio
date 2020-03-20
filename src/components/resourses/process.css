@@ -227,12 +227,11 @@
 
 @media all and (min-width:375px) and (max-width:420px) {
   .Technologies_popup:target #svg_process{
-
-  width:400px;
-  height:300px;
-  position: absolute;
-  margin-left:-15rem;
-  margin-top:10rem;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    margin-left: -30rem;
+    margin-top: 12rem;
   }
 
 }
@@ -253,8 +252,9 @@
     height:400px;
     position: absolute;
     margin-left:-14rem;
-    margin-top:15rem;
+    margin-top:16rem;
   }
+
   .Technologies_popup:target #process_heading{
 
     font-size: 1.3rem;
