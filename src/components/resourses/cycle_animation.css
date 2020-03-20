@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+box-sizing: border-box;
+}
+body{
+
+  text-align: center;
+}
+
+
+
+.Technologies_popup:target #frontwheel,#backwheel{
+  animation: wheel 1.5s linear 2.2;
+  transform-origin: center;
+  transform-box:fill-box;
+
+
+}
+
+ .Technologies_popup:target #manonbike{
+  animation: man 1.4s ease-in-out 2.4s  alternate infinite;
+  transform-origin: bottom;
+}
+
+
+
+@keyframes wheel {
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+
+}
+
+@keyframes man {
+  from{
+    transform: rotateX(0deg);
+  }
+  to{
+    transform: rotateX(16deg);
+  }
+}
+
+@keyframes hat {
+  from{
+    transform: translatey(0%);
+  }
+  to{
+    transform:translatey(30%);
+  }
+
+}
+
+.Technologies_popup:target #svg{
+animation: svg 4s ease-in-out ;
+position: absolute;
+margin-left:-10rem;
+margin-top:1rem;
+
+}
+@media only screen and (max-width: 600px) {
+  .Technologies_popup:target #svg{
+  animation: svg 4s ease-in-out ;
+  width: 200px;
+  height:150px;
+  position: absolute;
+  margin-left:0rem;
+  margin-top:-1rem;
+  }
+
+}
+@media all and (min-width:600px)and (max-width:768px) {
+  .Technologies_popup:target #svg{
+  animation: svg 4s ease-in-out ;
+  width: 150px;
+  height:150px;
+  position: absolute;
+  margin-left:2rem;
+  margin-top:3rem;
+  }
+
+}
+@keyframes svg {
+  from{
+    transform: translatex(-150%);
+    opacity: 0;
+  }
+  to{
+    transform:translatex(0%);
+    opacity: 1;
+  }
+}
+
+.Technologies_popup:target #container{
+
+
+  overflow: hidden;
+
+}
+
+.Technologies_popup:target #road{
+position: absolute;
+margin-top: 3rem;
+margin-left: -37rem;
+
+}
+@media only screen and (max-width: 600px) {
+.Technologies_popup:target  #road{
+  position: absolute;
+   width: 400px;
+   height:150px;
+  margin-top: .3rem;
+  margin-left:-8rem;
+
+  }
+}
+@media all and (min-width:600px)and (max-width:768px) {
+.Technologies_popup:target  #road{
+  position: absolute;
+   width: 300px;
+   height:150px;
+  margin-top:4rem;
+  margin-left:-4rem;
+
+  }
+}
+.Technologies_popup:target #plant{
+  animation: plant 1s ease-in-out 3.8s alternate infinite;
+  transform-origin:top;
+}
+@keyframes plant {
+  from{
+    transform: translatex(0%);
+  }
+  to{
+    transform:translatex(1%);
+  }
+
+}

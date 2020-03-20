@@ -1,0 +1,289 @@
+.Technologies_popup:target #srs{
+  animation:srs 1.4s ease-in-out   alternate infinite;
+
+
+
+}@keyframes srs {
+  from{
+    transform: translateY(0%);
+  }
+  to{
+
+   transform: translatey(-.5%);
+
+  }
+}
+.Technologies_popup:target #srs_circle{
+  animation:srs_circle 1s ease-in-out   alternate infinite;
+
+
+
+}
+@keyframes srs_circle{
+  from{
+    transform: translateY(0%);
+  }
+  to{
+
+   transform: translatey(11%);
+
+  }
+}
+.Technologies_popup:target #design{
+  animation:srs 1s ease-in-out   alternate infinite;
+
+}
+.Technologies_popup:target #design_circle{
+  animation:design_circle 1s ease-in-out   alternate infinite;
+
+
+
+}
+@keyframes design_circle{
+  from{
+    transform: translateY(0%);
+  }
+  to{
+
+   transform: translatey(11.5%);
+
+  }
+}
+
+.Technologies_popup:target #coding{
+  animation:coding 1s ease-in-out   alternate infinite;
+
+}
+@keyframes coding{
+  from{
+    transform: translateY(0%);
+  }
+  to{
+
+   transform: translatex(.5%);
+
+  }
+}
+
+
+
+.Technologies_popup:target #languages{
+  animation:srs 1s ease-in-out   alternate infinite;
+
+}
+.Technologies_popup:target #code_circle{
+  animation:lang_circle 1s ease-in-out   alternate infinite;
+
+}
+@keyframes lang_circle{
+  from{
+    transform: translateX(0%);
+  }
+  to{
+
+   transform: translatex(13%);
+
+  }
+}
+
+.Technologies_popup:target #tamplate{
+  animation:tamplate 1s ease-in-out   alternate infinite;
+
+}
+@keyframes tamplate{
+  from{
+    transform: translatey(0%);
+  }
+  to{
+
+   transform: translatey(-1.5%);
+
+  }
+}
+.Technologies_popup:target #tamp_circle{
+  animation:temp_circle 1s ease-in-out   alternate infinite;
+
+}
+@keyframes temp_circle{
+  from{
+    transform: translatey(0%);
+  }
+  to{
+
+   transform: translatey(-13%);
+
+  }
+}
+.Technologies_popup:target #testing{
+  animation:testing 1s ease-in-out   alternate infinite;
+
+}
+@keyframes testing{
+  from{
+    transform: translatey(0%);
+  }
+  to{
+
+   transform: translatey(.5%);
+
+  }
+}
+
+.Technologies_popup:target #testing_circle{
+  animation:testing_circle 1s ease-in-out   alternate infinite;
+
+}
+@keyframes testing_circle{
+  from{
+    transform: translatey(0%);
+  }
+  to{
+
+   transform: translatey(-13%);
+
+  }
+}
+
+.Technologies_popup:target #deploy{
+  animation:srs 1s ease-in-out   alternate infinite;
+
+}
+.Technologies_popup:target #phone{
+  animation:phone 1s ease-in-out   alternate infinite;
+
+}
+@keyframes phone{
+  from{
+ transform:translatey(0%);
+
+  }
+  to{
+
+    transform: translatey(-3%);
+
+
+  }
+}
+
+.Technologies_popup:target #phone_circle{
+  animation:phone_circl 1s ease-in-out   alternate infinite;
+
+}
+@keyframes phone_circl{
+  from{
+ transform: translateY(0%) translateX(0%);
+
+  }
+  to{
+
+    transform: translateY(21.5%) translateX(-20%);
+
+
+  }
+}
+.Technologies_popup:target #pc_circle{
+  animation:pc_circl 1s ease-in-out   alternate infinite;
+
+}
+@keyframes pc_circl{
+  from{
+ transform:translateX(0%);
+
+  }
+  to{
+
+    transform: translateX(-10%);
+
+
+  }
+}
+.Technologies_popup:target #pc{
+  animation:pc 1s ease-in-out   alternate infinite;
+
+}
+@keyframes pc{
+  from{
+ transform:translateX(0%);
+
+  }
+  to{
+
+    transform: translateX(-2%);
+
+
+  }
+}
+@media all and (min-width:420px) and (max-width: 600px) {
+  .Technologies_popup:target #svg_process{
+
+  width:500px;
+  height:400px;
+  position: absolute;
+  margin-left:-16rem;
+  margin-top:14rem;
+  }
+
+}
+
+@media all and (min-width:375px) and (max-width:420px) {
+  .Technologies_popup:target #svg_process{
+
+  width:400px;
+  height:300px;
+  position: absolute;
+  margin-left:-15rem;
+  margin-top:10rem;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  .Technologies_popup:target #process_heading{
+
+  font-size: 1.5rem;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top:-1rem;
+  }
+
+}
+@media only screen and (max-width:375px) {
+  .Technologies_popup:target #svg_process{
+
+    width:480px;
+    height:400px;
+    position: absolute;
+    margin-left:-14rem;
+    margin-top:15rem;
+  }
+  .Technologies_popup:target #process_heading{
+
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:black;
+    position: absolute;
+    margin-left: -2rem;
+    margin-top:-1rem;
+    }
+
+}
+@media all and (min-width:600px)and (max-width:768px) {
+  .Technologies_popup:target #svg_process{
+
+  width: 150px;
+  height:150px;
+
+  margin-left:-8rem;
+  margin-top:7rem;
+  }
+  @media all and (min-width:600px)and (max-width:768px) {
+  .Technologies_popup:target  #svg_process{
+    position: absolute;
+     width: 400px;
+     height:300px;
+    margin-top: 1rem;
+    margin-left:1rem;
+
+    }
+  }
+
+}
