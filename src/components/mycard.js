@@ -71,7 +71,7 @@ class Mycard extends Component {
 </div>
 <div className="general">
 <h1 >SULEMAN</h1>
-<p>A software engineer  who is seeking to find the opportunity to work in a fun and challenging working environment that will encourage me to improve and learn  </p>
+<p>A software engineer  who is seeking to find the opportunity to work in a fun and challenging working environment that will encourage me to improve and learn.  </p>
 <Alert variant='primary' className="more" >Mouse over the card for info</Alert>
 </div>
 </div>

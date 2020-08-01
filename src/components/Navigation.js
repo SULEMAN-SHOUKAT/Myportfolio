@@ -25,10 +25,10 @@ class NavigationBar extends Component {
    else{
      return(
        <>
-       <Link to="site-banner" href="#" spy={true}  smooth={true}    offset={-70}   duration= {500}  className="navigation-link"  style={{fontWeight:"400",fontFamily:"Comic Sans MS"}} >Home</Link>
-       <Link to="about-area" href="#"  spy={true} smooth={true}    offset={-70}   duration= {500} className="navigation-link "   style={{fontWeight:"400",fontFamily:"Comic Sans MS"}}>About</Link>
-       <Link href="#" to="services-area" spy={true}  smooth={true}    offset={-70}   duration= {500} className="navigation-link " style={{fontWeight:"400",fontFamily:"Comic Sans MS"}}>Services</Link>
-       <Link href="#" to="client"  spy={true}  smooth={true}    offset={-70}   duration= {800} className="navigation-link "  style={{fontWeight:"400",fontFamily:"Comic Sans MS"}}>Client Dealing</Link>
+       <Link to="site-banner" href="#" spy={true}  smooth={true}    offset={-70}   duration= {500}  className="navigation-link"  style={{fontWeight:"400",fontFamily:"Comic Sans MS",color:"black"}} >Home</Link>
+       <Link to="about-area" href="#"  spy={true} smooth={true}    offset={-70}   duration= {500} className="navigation-link "   style={{fontWeight:"400",fontFamily:"Comic Sans MS",color:"black"}}>About</Link>
+       <Link href="#" to="services-area" spy={true}  smooth={true}    offset={-70}   duration= {500} className="navigation-link " style={{fontWeight:"400",fontFamily:"Comic Sans MS",color:"black"}}>Services</Link>
+       <Link href="#" to="client"  spy={true}  smooth={true}    offset={-70}   duration= {800} className="navigation-link "  style={{fontWeight:"400",fontFamily:"Comic Sans MS",color:"black"}}>Client Dealing</Link>
        </>
      );
    }
@@ -40,7 +40,7 @@ class NavigationBar extends Component {
 
     return(
 
-      <Navbar bg="light" expand="lg" fixed="top">
+      <Navbar bg="none" expand="lg" fixed="top">
       
         <Link to="site-banner" spy={true}  smooth={true}  style={{cursor:"pointer"}}  offset={-70}   duration= {500}>
       <img
@@ -50,7 +50,7 @@ class NavigationBar extends Component {
        className="d-inline-block align-top App-logo w-20 h-20"
        onClick={()=>Scroll.scrollToTop()}
      />
-     <h6 style={{display:"inline-block",fontSize:"24px",fontWeight:"300"}}>SULEMAN</h6> </Link>
+     <h6 style={{display:"inline-block",fontSize:"24px",fontWeight:"300",color:"black"}}>SULEMAN</h6> </Link>
      
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 

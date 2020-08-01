@@ -245,6 +245,25 @@
   }
 
 }
+@media only screen and (min-width:769px) and (max-width: 800px) {
+  .Technologies_popup:target #process_heading{
+
+  font-size: 1.5rem;
+  position: absolute;
+  margin-left: 1rem;
+  margin-top:8rem;
+  }
+  .Technologies_popup:target #svg_process{
+
+    width:480px;
+    height:400px;
+    position: absolute;
+    margin-left:-14rem;
+    margin-top:23rem;
+  }
+
+
+}
 @media only screen and (max-width:375px) {
   .Technologies_popup:target #svg_process{
 

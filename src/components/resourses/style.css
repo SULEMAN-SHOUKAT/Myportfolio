@@ -16,10 +16,13 @@
 .Technologies_info{
   background-color: white;
   overflow:scroll;
-  overflow-x: hidden;
+  
   height: 100%;
   width: 100%;
 
+}
+.Technologies_info::-webkit-scrollbar {
+  width: 20px;
 }
 .Technologies_popup{
   height: 100%;
@@ -505,10 +508,14 @@ margin-left:1rem;
   z-index: 2500;
   opacity: 1;
   visibility: hidden;
+  overflow: scroll;
+  
   transition: all 1s ease-in-out;
 
 }
-
+.contact_popup::-webkit-scrollbar {
+  width: 40px;
+}
 .contact_popup:target{
 
   margin-left: 0rem;
@@ -1199,7 +1206,9 @@ a, a:hover {
   transition: all 1s ease-in-out;
   overflow: scroll;
   overflow-x: hidden;
+  overflow-x: hidden;
 }
+
 
 .myinfo_popup:target{
 

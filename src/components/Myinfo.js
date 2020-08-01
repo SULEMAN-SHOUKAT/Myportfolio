@@ -431,7 +431,7 @@ sidebar=()=>{
                 <h6 className="m-4 c_h6 font-weight-bold text-primary">Customer Involvement in Different Stages</h6>
               </div>
               <div className="card-body mt-3">
-                <h4 className="small c_h4 font-weight-bold">Requirment Gathring <span className="float-right">100%</span></h4>
+                <h4 className="small c_h4 font-weight-bold">Requirement Gathering <span className="float-right">100%</span></h4>
                 <div className="progress mb-4">
                   <div className="progress-bar bg-success" role="progressbar" style={{width: "100%"}}  aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>

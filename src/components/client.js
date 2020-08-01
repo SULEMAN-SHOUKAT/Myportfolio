@@ -27,14 +27,14 @@ class Client extends Component {
               <div className="row text-center" >
                   <div className="col-12 ">
                       <div className="about-title ">
-                          <h1 className="text-uppercase title-h1 row_3">Customer Saticfaction</h1>
+                          <h1 className="text-uppercase title-h1 row_3">Customer Satisfaction</h1>
                           <p className=" client_p" style={{color:"rgba(0,0,0,0.8)"}}>
                             We constantly regarded customer satisfaction as a target. It is our main business
                             target to detect what our customers expect from us and services
                              by always following the changes in customer values and behaviours systematically, and fulfil these expectations unconditionally.
                           </p>
                           <p className=" client_p" style={{color:"rgba(0,0,0,0.8)"}}>
-                            we involve the customer with us a team member of the project so that customer will know what axactly is going on,
+                            we involve the customer with us a team member of the project so that customer will know what exactly is going on,
                             what we are going to develope and what needs to be changed at run time of development.
 
                           </p>

@@ -52,9 +52,9 @@ class Services extends Component {
                                   <img src={service1} alt="Services-1"/>
                               </div>
                               <div className="card-body text-center">
-                                  <h5 className="card-title text-uppercase font-roboto">Wp developer</h5>
+                                  <h5 className="card-title text-uppercase font-roboto">Front-END development</h5>
                                   <p className="card-text card-text-1 text-secondary">
-                                      A Web Developer is responsible for the coding, design and layout of a website according to a company's specifications.
+                                      A Front-end Developer is responsible for the coding, design and layout of a website according to a company's specifications.
                                   </p>
                               </div>
                           </div>
@@ -91,7 +91,7 @@ class Services extends Component {
                                   <img src={service4} alt="Services-4"/>
                               </div>
                               <div className="card-body text-center">
-                                  <h5 className="card-title text-uppercase font-roboto">Backend Developer</h5>
+                                  <h5 className="card-title text-uppercase font-roboto">Back-end development</h5>
                                   <p className="card-text text-secondary">
                                     Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for improvement.
                                   </p>

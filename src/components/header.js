@@ -1,6 +1,10 @@
 import React,{Component} from 'react';
 import banner from './resourses/img/banner/banner-image.png';
 import background from './resourses/img/banner/home-banner.png';
+import intro_wbm from './resourses/intro.webm';
+import intro_mp4 from './resourses/intro.mp4';
+import loop_wbm from './resourses/loop.webm';
+import loop_mp4 from './resourses/loop.mp4';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import "./resourses/style.css";
@@ -18,13 +22,28 @@ class Header extends Component {
   render(){
     return(
 
-      <section className="site-banner" id="home" style={{background:`url(${background}) no-repeat 0% 25%`}}>
+      <section className="site-banner" id="home">
+             <div class="video-background prllx">
+        <div class="home_intro_videos">
+           <video class="intro" muted autoPlay loop>
+           <source src={intro_wbm} type="video/webm"/>
+                <source src={intro_mp4} type="video/mp4"/> </video>
+       
+        <video class="intro-loop" muted autoPlay loop>
+              <source src={loop_wbm} type="video/webm"/>
+                <source src={loop_mp4} type="video/mp4"/> 
+            </video>
+        </div>
+    </div>
           <div className="container">
+          
+                
+           
               <div className="row">
-                  <div className="col-lg-6 col-md-12 site-title"style={{marginTop:"11rem"}}>
-                      <h3 className="title-text" style={{fontWeight:"400"}}>Hey -------</h3>
-                      <h1 className="title-text text-uppercase" style={{fontSize:"76px",fontFamily:"Comic Sans MS"}}>I am Suleman</h1>
-                      <h4 className="title-text text-uppercase" style={{fontWeight:"400"}} >React js Developer</h4>
+                  <div className="col-lg-6 col-md-12 site-title mr-20"style={{marginTop:"14rem"}}>
+                      <h3 className="title-text" style={{fontWeight:"400",color:'white'}}>Hey -------</h3>
+                      <h1 className="title-text text-uppercase" style={{fontSize:"76px",fontFamily:"Comic Sans MS",color:'white'}}>I am Suleman</h1>
+                      <h4 className="title-text text-uppercase" style={{fontWeight:"400",color:'white'}} >React js Developer</h4>
                       <div className="site-buttons">
                           <div className="d-flex flex-row flex-wrap">
                               <a  href="#contact" type="button" className="btn button primary-button mr-4 text-uppercase">hire
@@ -33,9 +52,7 @@ class Header extends Component {
                           </div>
                       </div>
                   </div>
-                  <div className="col-lg-6 col-md-12 banner-image" style={{marginTop:"7rem"}}>
-                      <img src={banner}alt="banner-img" className="img-fluid"/>
-                  </div>
+                 
               </div>
           </div>
       </section>

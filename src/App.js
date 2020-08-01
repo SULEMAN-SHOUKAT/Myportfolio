@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import  'bootstrap';
+import VideoBackground from './components/videoBackground.js';
 import NavigationBar from './components/Navigation.js';
 import Header from './components/header.js';
 import About from './components/about.js';
@@ -15,8 +16,9 @@ import Myinfo from "./components/Myinfo.js";
 function App() {
   return (
     <div style={{position: "sticky"}}>
-    <NavigationBar/>
-    <div style={{marginTop:"80px"}}>
+      
+      
+    <NavigationBar />
     <Header/>
     <About/>
     <Services/>
@@ -26,7 +28,6 @@ function App() {
     <Contactme/>
     <Mycard/>
     <Footer/>
-</div>
     </div>
   );
 }
