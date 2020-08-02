@@ -936,9 +936,10 @@ a, a:hover {
     margin-top: 0rem;
   }
 }
-@media all and (min-width:420px)and (max-width:600px) {
+@media all and (min-width:376px)and (max-width:600px) {
   .profile-card-social{
     margin-top: 20px;
+   
   }
   .profile-card__cnt{
     margin-top: -2rem;

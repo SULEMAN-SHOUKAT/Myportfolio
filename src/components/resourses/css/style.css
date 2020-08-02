@@ -102,6 +102,10 @@
         height:39%;
         overflow: hidden;
     }
+    .site-banner{
+        width:142%;
+        padding-bottom: 3rem;
+    }
 }
 @media only screen and (max-width: 720px) and (min-width:420px)  {
 
@@ -112,6 +116,10 @@
         width: 142%;
         height:40%;
         overflow: hidden;
+    }
+    .site-banner{
+        width:142%;
+        padding-bottom: 3rem;
     }
 }
 @media only screen and (max-width: 920px) and (min-width:720px)  {
@@ -124,6 +132,9 @@
         height:38%;
         overflow: hidden;
     }
+    .site-banner{
+        width:100%;
+    }
 }
 @media only screen and (max-width: 320px)  {
 
@@ -135,9 +146,11 @@
         height:41%;
         overflow: hidden;
     }
+   
 }
 .site-banner{
     margin-top: -2rem;
+    padding-bottom: 2rem;
 }
 .site-main .site-banner .site-title h3{
     padding-top: 35%;

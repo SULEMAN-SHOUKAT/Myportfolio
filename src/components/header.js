@@ -1,8 +1,7 @@
 import React,{Component} from 'react';
 import intro_wbm from './resourses/intro.webm';
 import loop_wbm from './resourses/loop.webm';
-import poster from './resourses/poster.png';
-import poster2 from './resourses/poster2.png';
+import banner from "./resourses/img/banner/banner-image.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import "./resourses/style.css";
@@ -22,15 +21,15 @@ class Header extends Component {
       
     return(
 
-      <section className="site-banner" id="home">
+      <section className="site-banner" id="home" style={{backgroundImage:`linear-gradient(to right,#0062a7,#004288)`}}>
              <div className="video-background prllx">
         <div className="home_intro_videos">
-           <video className="intro" playsInline muted autoPlay loop poster={poster} >
+           <video className="intro" playsInline muted autoPlay loop>
               
                <source src={intro_wbm} type="video/webm"/>
                 </video>
               
-        <video className="intro-loop" playsInline muted autoPlay loop poster={poster2}>
+        <video className="intro-loop" playsInline muted autoPlay loop>
         
               <source src={loop_wbm} type="video/webm"/>
             </video>
