@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import intro_wbm from './resourses/intro.webm';
 import loop_wbm from './resourses/loop.webm';
-import banner from "./resourses/img/banner/banner-image.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import "./resourses/style.css";

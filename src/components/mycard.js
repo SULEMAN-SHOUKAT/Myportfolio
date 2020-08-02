@@ -20,7 +20,7 @@ class Mycard extends Component {
 
 
 <div className="card_popup" id="card">
-<NavigationBar call="contact"/>
+<NavigationBar call="contact" color="light"/>
 <div className="center">
 
 <div className="card">
