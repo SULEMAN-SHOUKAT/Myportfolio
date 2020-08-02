@@ -922,13 +922,15 @@ a, a:hover {
 }
 @media all and (min-width:600px)and (max-width:768px) {
   .profile-card-social{
-    margin-top: -40px;
+    margin-top: 20px;
   }
   .profile-card__cnt{
     margin-top: -4rem;
   }
   .profile-card {
     height: 400px;
+    
+    margin-right: -1rem;
   }
   .profile-card-inf{
     margin-top: 0rem;
@@ -943,6 +945,8 @@ a, a:hover {
   }
   .profile-card {
     height: 430px;
+    margin-top: 6rem;
+    margin-right: -1rem;
   }
   .profile-card-inf{
     margin-top: 0rem;

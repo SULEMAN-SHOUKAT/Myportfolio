@@ -12,30 +12,24 @@ import "./resourses/css/responsive.css";
 
 import 'bootstrap';
 class Header extends Component {
- constructor(props) {
-     super(props)
- 
-     this.state = {
-          loading:true
-     }
- }
+
  
 
 
   render(){
-      console.log(this.state.loading);
+      
     return(
 
       <section className="site-banner" id="home">
              <div className="video-background prllx">
         <div className="home_intro_videos">
-           <video className="intro" muted autoPlay loop onLoadedData={()=>this.setState({loading:false})}>
-               {this.state.loading==true?<h1>Loading</h1>:null}
+           <video className="intro" playsInline muted autoPlay loop >
+              
                <source src={intro_wbm} type="video/webm"/>
                 </video>
               
-        <video className="intro-loop" muted autoPlay loop>
-        {this.state.loading==true?<h1>Loading</h1>:null}
+        <video className="intro-loop" playsInline muted autoPlay loop>
+        
               <source src={loop_wbm} type="video/webm"/>
             </video>
         </div>
