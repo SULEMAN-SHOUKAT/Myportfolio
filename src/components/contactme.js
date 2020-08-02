@@ -18,7 +18,7 @@ class Contactme extends Component {
     return(
 
           <div className="contact_popup" id="contact">
-          <NavigationBar call="contact"/>
+          <NavigationBar call="contact" color="light"/>
          
            
 

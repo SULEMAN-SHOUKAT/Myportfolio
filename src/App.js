@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import  'bootstrap';
-import VideoBackground from './components/videoBackground.js';
 import NavigationBar from './components/Navigation.js';
 import Header from './components/header.js';
 import About from './components/about.js';

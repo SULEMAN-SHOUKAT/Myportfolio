@@ -40,7 +40,7 @@ class NavigationBar extends Component {
 
     return(
 
-      <Navbar bg="none" expand="lg" fixed="top">
+      <Navbar bg={this.props.color? this.props.color:"none"} expand="lg" fixed="top">
       
         <Link to="site-banner" spy={true}  smooth={true}  style={{cursor:"pointer"}}  offset={-70}   duration= {500}>
       <img
