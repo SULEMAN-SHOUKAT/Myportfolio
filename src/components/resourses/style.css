@@ -936,7 +936,7 @@ a, a:hover {
     margin-top: 0rem;
   }
 }
-@media all and (min-width:425px)and (max-width:600px) {
+@media all and (min-width:420px)and (max-width:600px) {
   .profile-card-social{
     margin-top: 20px;
   }
