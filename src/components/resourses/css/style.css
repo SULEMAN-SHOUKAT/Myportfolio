@@ -56,9 +56,10 @@
     z-index: 1;
     
 }
+
 .intro-loop{
     visibility: hidden;
-    animation: loop_into_animation 0s 7s forwards ease-in;
+
 }
 @keyframes loop_into_animation {
     to   { visibility: visible;
@@ -99,12 +100,12 @@
         left: 0;
         top: 0;
         width: 142%;
-        height:39%;
+        height:39.5%;
         overflow: hidden;
     }
     .site-banner{
         width:142%;
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
     }
 }
 @media only screen and (max-width: 720px) and (min-width:420px)  {
@@ -145,6 +146,15 @@
         width: 142%;
         height:41%;
         overflow: hidden;
+    }
+    .video-background video {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 78%;
+        height: 86%;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
    
 }

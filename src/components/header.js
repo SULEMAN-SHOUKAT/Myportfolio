@@ -12,9 +12,19 @@ import "./resourses/css/responsive.css";
 
 import 'bootstrap';
 class Header extends Component {
+    constructor(props) {
+        super(props)
+        this.videoRef=React.createRef();
+    }
+    
+
 
  
-
+startVideo=()=>{
+    this.videoRef.current.style.visibility="visible"
+    this.videoRef.current.style.zIndex=2
+this.videoRef.current.play()
+}
 
   render(){
       
@@ -23,12 +33,12 @@ class Header extends Component {
       <section className="site-banner" id="home" style={{backgroundImage:`linear-gradient(to right,#0062a7,#004288)`}}>
              <div className="video-background prllx">
         <div className="home_intro_videos">
-           <video className="intro" playsInline muted autoPlay loop>
+           <video className="intro" playsInline muted autoPlay ref={this.FirstVideo}  onEnded={()=>this.startVideo()} >
               
                <source src={intro_wbm} type="video/webm"/>
                 </video>
               
-        <video className="intro-loop" playsInline muted autoPlay loop>
+        <video className="intro-loop" playsInline muted  loop ref={this.videoRef}>
         
               <source src={loop_wbm} type="video/webm"/>
             </video>
