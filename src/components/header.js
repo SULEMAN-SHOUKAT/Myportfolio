@@ -57,7 +57,7 @@ this.videoRef.current.play()
                           <div className="d-flex flex-row flex-wrap">
                               <a  href="#contact" type="button" className="btn button primary-button mr-4 text-uppercase">hire
                                   me</a>
-                              <a href="https://drive.google.com/file/d/1AuBQYfUrgByJ7uZnlFIhkPfCiPcIsXs0/view?usp=sharing" rel="noopener noreferrer"   target="_blank" type="button" className="btn button secondary-button text-uppercase">Get cv</a>
+                              <a href="https://drive.google.com/file/d/1hScGKsyiTgb1uReiSlT8mWugQHiIagPq/view?usp=sharing" rel="noopener noreferrer"   target="_blank" type="button" className="btn button secondary-button text-uppercase">Get cv</a>
                           </div>
                       </div>
                   </div>
